@@ -1,17 +1,28 @@
-# VREHT-distance-sampling
+# VREHT Distance Sampling Simulation
 
-This repository contains the R code used to reproduce the simulation study
-presented in the paper:
+This repository contains R code for the simulation study presented in the paper:
 
-“Extending the Vertically Reflected Exponentiated Hyperbolic Tangent
-Detection Function for Grouped Line-Transect Distance Sampling”.
+"Extending the Vertically Reflected Exponentiated Hyperbolic Tangent Detection Function for Grouped Line-Transect Data"
 
-## Files
+## Description
 
-simulation_VREHT_group.R  
-R script used to run the simulation study comparing the HN, HR and VREHT
-detection functions for grouped line-transect distance sampling data.
+The code simulates grouped distance sampling data under different detection scenarios and fits the following models:
 
-## Author
+- Half-Normal (HN)
+- Hazard-rate (HR)
+- VREHT (proposed model)
 
-Gajanan Patil
+Performance is evaluated using:
+- Probability of detection (Pa)
+- Standard error of Pa (Delta method)
+- Absolute Relative Bias (ARB)
+- Normalized RMSE (NRMSE)
+- Model selection criteria (AIC)
+
+## How to Run
+
+1. Open R / RStudio
+2. Run the script:
+
+```r
+source("simulation_VREHT_group.R")
