@@ -1,9 +1,10 @@
 # ============================================================
-# CDS Simulation: HN, HR and VREHT Detection Functions
+# CDS Simulation(Line-transect sampling): HN, HR and VREHT Detection Functions
 # Author: Gajanan Patil and Shashibhushan Mhadik
 # Description:
-# This script performs a simulation study under CDS framework
-# comparing Half-Normal (HN), Hazard-Rate (HR) and VREHT models
+# This script performs a Monte Carlo simulation study under the
+# Conventional Distance Sampling (CDS) framework for line transect data
+# comparing Half-Normal (HN), Hazard-Rate (HR) and VREHT detection functions
 # ============================================================
 rm(list=ls())
 # ---------------------------
